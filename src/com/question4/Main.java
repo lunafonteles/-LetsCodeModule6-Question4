@@ -12,9 +12,8 @@ public class Main {
         float reais = scancotacaoDolar.nextFloat();
 
         float result = Conversor.dolarConverter(cotacaoDolar, reais);
-        //System.out.printf(reais + " reais equivalem a %.2f " + result + " dolares");
-        //nao consegui formatar dois numeros float como queria.
-        System.out.println(reais + " reais equivalem a " + result + " dolares.");
+        System.out.printf("%.2f equivalem a %.2f dolares. ", reais, result);
+        //nao consegui formatar a moeda
 
     }
 }
